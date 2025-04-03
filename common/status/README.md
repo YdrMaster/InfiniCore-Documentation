@@ -5,7 +5,13 @@
 <a id="INFINI_STATUS_SUCCESS"></a>
 <div style="background-color: grey; padding: 1px;"> INFINI_STATUS_SUCCESS = 0 </div>
 
+运行成功。
+
     运行成功。
+
+```plaintext
+运行成功。
+```
 
 <a id="INFINI_STATUS_INTERNAL_ERROR"></a>
 <div style="background-color: grey; padding: 1px;"> INFINI_STATUS_INTERNAL_ERROR = 1 </div>
@@ -30,37 +36,37 @@
 <a id="INFINI_STATUS_DEVICE_TYPE_NOT_SUPPORTED"></a>
 <div style="background-color: grey; padding: 1px;"> INFINI_STATUS_DEVICE_TYPE_NOT_SUPPORTED = 5 </div>
 
-    接口不支持用户所指定的硬件类型。  
+    接口不支持用户所指定的硬件类型。
 
 <a id="INFINI_STATUS_DEVICE_NOT_FOUND"></a>
 <div style="background-color: grey; padding: 1px;"> INFINI_STATUS_DEVICE_NOT_FOUND = 6 </div>
 
-    无法找到用户指定的硬件类型与硬件序号所指向的设备。  
+    无法找到用户指定的硬件类型与硬件序号所指向的设备。
 
 <a id="INFINI_STATUS_DEVICE_NOT_INITIALIZED"></a>
 <div style="background-color: grey; padding: 1px;"> INFINI_STATUS_DEVICE_NOT_INITIALIZED = 7 </div>
 
-    设备未被初始化。请检查硬件驱动是否正常，以及是否调用了相应计算库的初始化接口。  
+    设备未被初始化。请检查硬件驱动是否正常，以及是否调用了相应计算库的初始化接口。
 
 <a id="INFINI_STATUS_DEVICE_ARCHITECTURE_NOT_SUPPORTED"></a>
 <div style="background-color: grey; padding: 1px;"> INFINI_STATUS_DEVICE_ARCHITECTURE_NOT_SUPPORTED = 8 </div>
 
-    未被支持的硬件的架构。一些硬件类型包含不同型号以及硬件特性的设备，该型号不被接口支持。  
+    未被支持的硬件的架构。一些硬件类型包含不同型号以及硬件特性的设备，该型号不被接口支持。
 
 <a id="INFINI_STATUS_BAD_TENSOR_DTYPE"></a>
 <div style="background-color: grey; padding: 1px;"> INFINI_STATUS_BAD_TENSOR_DTYPE = 10 </div>
 
-    用户传入的设备类型不支持。  
+    用户传入的设备类型不支持。
 
 <a id="INFINI_STATUS_BAD_TENSOR_SHAPE"></a>
 <div style="background-color: grey; padding: 1px;"> INFINI_STATUS_BAD_TENSOR_SHAPE = 11 </div>
 
-    用户传入的张量形状不支持。  
+    用户传入的张量形状不支持。
 
 <a id="INFINI_STATUS_BAD_TENSOR_STRIDES"></a>
 <div style="background-color: grey; padding: 1px;"> INFINI_STATUS_BAD_TENSOR_STRIDES = 12 </div>
 
-    用户传入的张量步长不支持。  
+    用户传入的张量步长不支持。
 
 <a id="INFINI_STATUS_INSUFFICIENT_WORKSPACE"></a>
 <div style="background-color: grey; padding: 1px;"> INFINI_STATUS_INSUFFICIENT_WORKSPACE = 13 </div>
